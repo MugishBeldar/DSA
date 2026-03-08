@@ -1,0 +1,18 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "dsa_rust"
+path = "src/lib.rs"
+
+[[bin]]
+name = "basic_maths"
+path = "src/main_basic_maths_binary.rs"
+
+[[bin]]
+name = "recursion"
+path = "src/main_recursion_binary.rs"
+
+[dependencies]
